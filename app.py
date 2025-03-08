@@ -76,13 +76,13 @@ def generate_image(prompt, size="1024x1024"):
 
 def setup_page():
     """Configure page settings."""
-    st.set_page_config(page_title="Clothing Design Generator Using DALLE-E", layout="wide")
+    st.set_page_config(page_title="Clothing Design Visualizer Using DALLE-E", layout="wide")
     st.markdown(
         '''<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">''',
         unsafe_allow_html=True)
     st.markdown("""
         <div class="container text-center">
-            <h1 class="display-4 text-primary">🎨 Clothing Design Generator Using DALLE-E</h1>
+            <h1 class="display-4 text-primary">🎨 Clothing Design Visualizer Using DALLE-E</h1>
             <p class="lead">Generate images from text descriptions using OpenAI's DALLE</p>
         </div>
     """, unsafe_allow_html=True)
